@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  color: white;
+  border: solid black 2px;
+  background-color:/* rgb(201, 200, 200);*/ black;
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  width: 100vw;
+  height: 8vh;
+  color: white;
+  border: solid black 2px;
+  background-color:/* rgb(201, 200, 200);*/ black;
+  display: flex;
+  text-align: center;
+}
+header {
+  align-items: center;
+  align-items: center;
+  font-size: 5vh;
+}
+
+header div h5 {
+  margin-left: 20px;
+  font-family: BELL MT;
+  align-items: center;
+}
+
+main {
+  height: cover;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: gray;*/
+  background-image: url(https://image.freepik.com/free-photo/promenade-river-with-buildings-background_1137-192.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-container {
+  height: 70vh;
+  /* background-color: burlywood;*/
+  background-color: rgba(116, 185, 231, 0.267);
+  margin: 1em 50px 20px 10%;
+  border-radius: 10px;
+
+  padding: 20px 20px 20px 20px;
+}
+.left-container span {
+  color: red;
+  font-size: 15px;
+}
+footer span {
+  color: white;
+  align-items: center;
+}
+
+label {
+  color: black;
+  font-size: 1.2em;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: 1px solid black;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: rgba(116, 185, 231, 0.267);
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.typ-txt {
+  height: 2em;
+  width: 20em;
+  position: relative;
+}
+
+textarea {
+  height: 6em;
+  width: 100%;
+}
+
+.gen,
+.gra {
+  color: black;
+  font-size: 2m;
+  margin-left: 30px;
+}
+
+button {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.right-container {
+  width: 47vw;
+  height: cover;
+  /* background-color: burlywood;*/
+  background-color: rgba(116, 185, 231, 0.267);
+  margin: 1em 1em 20px 1em;
+  border-radius: 5px;
+
+  padding-bottom: 20px;
+  /* overflow-y: scroll; */
+}
+
+h2 {
+  color: #09454b;
+  text-align: center;
+}
+
+.feedback-card {
+  width: 90%;
+  /* height: 100px; */
+  /*background-color: rgb(201, 200, 200);*/
+
+  margin: 10px 5px 0vw 15px;
+  border-radius: 5px;
+  border: solid black 1px;
+  position: relative;
+}
+
+.feedback-head {
+  color: black;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.feedback-body {
+  /* color: hotpink; */
+  color: black;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="right-container"] {
+    width: 90%;
+  }
+  [class="left-container"] {
+    width: 90%;
+  }
+}
